@@ -1,5 +1,5 @@
 # docker-icecream
-Docker images and instructions to run container as ICECC x86_64 build nodes.
+Docker images and instructions to run container as ICECC x86_64 build nodes on platforms.
 
 ## What is Icecream(icecc)?
 [Ice Cream - Distributed compiler system](https://github.com/icecc/icecream)
