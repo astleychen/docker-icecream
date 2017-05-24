@@ -14,3 +14,8 @@ $ docker run -itd -p 10245:10245/tcp -p 8765:8765/tcp -p 8766:8766/tcp -p 8765:8
 ```bash
 $ docker run -itd --net=host -p 10245:10245/tcp -p 8765:8765/tcp -p 8766:8766/tcp -p 8765:8765/udp <docker_repo_name/img_id>
 ```
+
+## Autorestart running container
+```bash
+$ docker update --restart=always
+```
